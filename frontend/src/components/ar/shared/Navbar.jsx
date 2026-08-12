@@ -130,7 +130,7 @@ const Navbar = () => {
                 left-0
                 right-0
                 h-13
-                bg-blue-50
+                bg-gradient-to-l from-blue-50 via-blue-100 to-blue-200
                 border-b
                 border-blue-50
                 shadow-[0_0_7px_rgba(0,0,0,0.4)]

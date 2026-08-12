@@ -29,21 +29,21 @@ function Sidebar() {
         //     "
         // >
         <aside
-    dir="rtl"
-    className="
+            dir="rtl"
+            className="
     fixed
     right-0
     top-0
     h-screen
     w-16
     sm:w-64
-    bg-blue-50
+    bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200
     border-l
     border-blue-100
     shadow-[0_0_7px_rgba(0,0,0,0.4)]
     z-50
 "
->
+        >
 
             {/* Logo / Title */}
             <div
