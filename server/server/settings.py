@@ -43,11 +43,18 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 #     "ALLOWED_HOSTS",
 #     "localhost,127.0.0.1"
 # ).split(",")
-ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    ".onrender.com",
-]
+# ALLOWED_HOSTS = [
+#     "localhost",
+#     "127.0.0.1",
+#     ".onrender.com",
+# ]
+
+ALLOWED_HOSTS = os.getenv(
+    "ALLOWED_HOSTS",
+    "localhost,127.0.0.1"
+).split(",")
+
+
 #Create requirements file
 #py -m pip freeze > requirements.txt
 #then check :
