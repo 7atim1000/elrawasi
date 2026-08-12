@@ -1,0 +1,60 @@
+@import 'tailwindcss' ;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+@import 'tailwindcss';
+
+* {
+    font-family: 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* * {
+    font-family: 'Söhne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+/* Update your utility class */
+.font-playfair {
+  font-family: 'Söhne', sans-serif !important;
+}
+
+::-webkit-scrollbar{
+  display: none ;
+}
+
+
+.text-taupe{
+  --tw-text-opacity: 1;
+  color: rgb(178 159 141 / var(--tw-text-opacity));
+}
+.bg-taupe{
+  --tw-text-opacity: 1;
+  background-color: rgb(178 159 141 / var(--tw-text-opacity));
+}
+.border-taupe{
+  --tw-text-opacity: 1;
+  border-color: rgb(178 159 141 / var(--tw-text-opacity));
+}
+
+/* Add these custom colors */
+:root {
+  --taupe-50: #f8f7f5;
+  --taupe-100: #e9e6e1;
+  --taupe-200: #d5cfc6;
+  --taupe-300: #bcb2a5;
+  --taupe-400: #a09484;
+  --taupe-500: #8a7e6f;
+
+  --taupe-600: #73675a;
+  --taupe-700: #5d5348;
+  
+  --taupe-800: #4d453c;
+  --taupe-900: #413b34;
+}
+
